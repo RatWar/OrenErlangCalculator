@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.besaba.anvarov.orenerlangcalculator.MainActivity"
+            tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:textStyle="italic"
+                android:text="@string/txtSwitch" />
+        </TableRow>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:paddingBottom="@dimen/pad_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/pad_norm"
+            android:paddingRight="@dimen/pad_norm"
+            android:paddingLeft="@dimen/pad_norm"
+            android:paddingStart="@dimen/pad_norm"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textStyle="bold"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt1" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt2" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/txt3" />
+        </RadioGroup>
+
+
+        <TableRow android:paddingBottom="@dimen/pad_large">
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:gravity="start|end"
+                android:paddingEnd="@dimen/pad_norm"
+                android:paddingRight="@dimen/pad_norm"
+                android:paddingLeft="@dimen/pad_norm"
+                android:paddingStart="@dimen/pad_norm"
+                android:text="@string/txt4"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/et_1"
+                android:ems="10"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                tools:ignore="LabelFor"/>
+        </TableRow>
+
+        <TableRow android:paddingBottom="@dimen/pad_large">
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:gravity="start|end"
+                android:paddingEnd="@dimen/pad_norm"
+                android:paddingRight="@dimen/pad_norm"
+                android:paddingLeft="@dimen/pad_norm"
+                android:paddingStart="@dimen/pad_norm"
+                android:text="@string/txt2"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/et_2"
+                android:ems="10"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:imeOptions="flagNoExtractUi"
+                android:singleLine="true"
+                tools:ignore="LabelFor"/>
+        </TableRow>
+
+        <TableRow android:paddingBottom="@dimen/pad_large">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_span="2"
+                android:gravity="start|end"
+                android:paddingEnd="@dimen/pad_norm"
+                android:paddingRight="@dimen/pad_norm"
+                android:paddingLeft="@dimen/pad_norm"
+                android:paddingStart="@dimen/pad_norm"
+                android:text="@string/txtCaption"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow android:paddingBottom="@dimen/pad_norm">
+
+            <TextView
+                android:id="@+id/tv_Result"
+                android:gravity="start|end"
+                android:paddingEnd="@dimen/pad_norm"
+                android:paddingRight="@dimen/pad_norm"
+                android:paddingLeft="@dimen/pad_norm"
+                android:paddingStart="@dimen/pad_norm"
+                android:text="@string/txt3"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_Otvet"
+                android:gravity="start|end"
+                android:paddingEnd="@dimen/pad_norm"
+                android:paddingRight="@dimen/pad_norm"
+                android:paddingLeft="@dimen/pad_norm"
+                android:paddingStart="@dimen/pad_norm"
+                android:text="Large Text"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

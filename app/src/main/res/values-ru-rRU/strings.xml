@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Erlang Calculator</string>
+    <string name="action_settings">Автор</string>
+    <string name="btClose">Закрыть</string>
+    <string name="action_reset">Очистка</string>
+    <string name="erBHT">Ошибка ввода ЧНН</string>
+    <string name="erLine">Ошибка ввода линий</string>
+    <string name="erBlock">Ошибка ввода потерь</string>
+    <string name="txtSwitch">Что неизвестно? (выбрать)</string>
+    <string name="txtCaption">Расчет по 1-ой формуле Эрланга</string>
+    <string name="txt1">ЧНН (Эрл.)</string>
+    <string name="txt2">Потери</string>
+    <string name="txt3">Линии</string>
+    <string name="txt4">ЧНН</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Erlang Calculator</string>
+    <string name="action_settings">About</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6335496795536464/2331704833</string>
+    <string name="txt1">BHT (Erl)</string>
+    <string name="txt2">Blocking</string>
+    <string name="txt3">Lines</string>
+    <string name="txt4">BHT</string>
+    <string name="txtSumma" translatable="false"> = </string>
+    <string name="Copyr" translatable="false">В© Anvarov Rais \n2012 (Orenburg) \ne-mail: ra7@bk.ru</string>
+    <string name="txtCaption">The calculation of the 1st Erlang formula</string>
+    <string name="txtSwitch">It is unknown? (select)</string>
+    <string name="erBlock">Input error blocking</string>
+    <string name="erLine">Input error lines</string>
+    <string name="erBHT">Input error BHT</string>
+    <string name="btClose">Close</string>
+    <string name="action_reset">Cleaning</string>
+    <string name="accuracy" translatable="false"><![CDATA[" < 0.0001"]]></string>
+</resources>

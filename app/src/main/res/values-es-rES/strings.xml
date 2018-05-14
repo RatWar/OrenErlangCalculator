@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Erlang Calculator</string>
+    <string name="txt1">BHT (Erl)</string>
+    <string name="txt4">BHT</string>
+    <string name="txt3">Línea</string>
+    <string name="txt2">La pérdida de</string>
+    <string name="txtCaption">El cálculo de 1er fórmula Erlang</string>
+    <string name="txtSwitch">Que un desconocido? (seleccionar)</string>
+    <string name="erBlock">Error de entrada de pérdidas</string>
+    <string name="erLine">Error de entrada de línea</string>
+    <string name="erBHT">Error de entrada BHT</string>
+    <string name="btClose">Cerrar</string>
+    <string name="action_reset">Limpieza</string>
+    <string name="action_settings">Autor</string>
+</resources>

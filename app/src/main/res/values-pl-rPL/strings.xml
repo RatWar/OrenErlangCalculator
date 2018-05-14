@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Erlang Calculator</string>
+    <string name="action_settings">Autor</string>
+    <string name="txt1">BHT (Erl)</string>
+    <string name="txt2">Straty</string>
+    <string name="txt3">Linie</string>
+    <string name="txt4">BHT</string>
+    <string name="txtCaption">Obliczenia w 1-szej wzoru Erlang</string>
+    <string name="txtSwitch">Że nieznany? (wybierz)</string>
+    <string name="erBlock">Błąd wejścia strat</string>
+    <string name="erLine">Błąd wejścia linii</string>
+    <string name="erBHT">Błąd wejścia BHT</string>
+    <string name="btClose">Zamknij</string>
+    <string name="action_reset">Czyszczenie</string>
+</resources>
