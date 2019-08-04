@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             var vBHT: Float
             val vBlocking: Float
             val lines: Int
+            hideKeyboard()
             tv_Otvet.clearComposingText()
             if (!et_1.text.isEmpty() and !et_2.text.isEmpty()) {
                 when (rB) {
